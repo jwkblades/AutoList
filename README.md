@@ -26,15 +26,24 @@ Notes
 Todo
 ====
 [X] Get basic functionality working.
+
 [X] Work with hierarchical lists.
+
 [X] Figure out how to do key mappings for `enter`, `o`, and `O`.
-		[X] Ensure that `enter`, `O`, and `o` work properly within a list.
-		[X] Ensure that `enter` and `o` work properly at the end of a list.
-		[X] Ensure that `O` works properly at the beginning of a list.
+
+[X] Ensure that `enter`, `O`, and `o` work properly within a list.
+		
+[X] Ensure that `enter` and `o` work properly at the end of a list.
+		
+[X] Ensure that `O` works properly at the beginning of a list.
+		
 [ ] Add ability to delete one or more lines and `reList`.
+
 [ ] Add the ability to paste one or more lines and `reList`.
+
 [ ] Fix `addItem` when dealing with list items that span multiple lines (such as
     #2 in `Notes` above).
+    
 [ ] Automatically continue a list which has been separated by a sub-list (based
     off of indentation most likely).
 
