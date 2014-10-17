@@ -6,9 +6,12 @@ you have a standard numeric list you normally have to go through a lot of hassle
 maintaining it. If you add new items in the middle you have to renumber every
 item under it. Well this makes that easier!
 
-How to use it
--------------
-Simply include the plugin in your plugins directory and it will do the rest.
+Installation
+------------
+Vundle:
+```
+	Bundle "JamesB/AutoList"
+```
 
 Features
 --------
@@ -53,11 +56,9 @@ I welcome help from anyone more experienced in vimscripts than I am. Feel free
 to take on one of the above todo items.
 
 When aiming to contribute please follow these guidelines
-1. In the commit title, start the commit message with `[DEV]` or `[TEST]`
-	 appropriately based on what the commit focuses on.
-2. Once you have completed your todo item, update the `Todo` list and submit a
-	 pull request. You may also want to add yourself to the contributors -- give
-	 credit where credit is due.
+
+1. In the commit title, start the commit message with `[DEV]` or `[TEST]` appropriately based on what the commit focuses on.
+2. Once you have completed your todo item, update the `Todo` list and submit a pull request. You may also want to add yourself to the contributors -- give credit where credit is due.
 3. Maintain the coding style that is currently in place.
 
 License
